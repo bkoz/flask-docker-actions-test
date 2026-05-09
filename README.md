@@ -6,13 +6,18 @@ A simple Flask application containerized with Docker to test GitHub Actions work
 
 This repository demonstrates:
 - A basic Flask web application
-- Dockerization of a Python application
+- Dockerization of a Python application using Red Hat UBI (Universal Base Image)
 - GitHub Actions workflow for building and testing Docker containers
 
 ## Application Endpoints
 
 - `GET /` - Returns a welcome message
 - `GET /health` - Health check endpoint
+
+## Base Image
+
+This application uses Red Hat's UBI 9 Python 3.11 minimal image:
+`registry.access.redhat.com/ubi9/python-311`
 
 ## Running Locally
 
