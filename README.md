@@ -60,4 +60,8 @@ The workflow runs on:
 The Docker image is automatically published to:
 `ghcr.io/bkoz/flask-docker-actions-test:latest`
 
+**Multi-platform support:**
+- linux/amd64 (x86_64)
+- linux/arm64 (ARM64)
+
 Tagged versions are also available based on branch names and commit SHAs.
